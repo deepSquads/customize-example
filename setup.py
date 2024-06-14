@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-# Copyright © Michal Čihař <michal@weblate.org>
+# Copyright © KhulnaSoft Bot <info@khulnasoft.com>
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
@@ -9,18 +9,18 @@
 from setuptools import setup
 
 setup(
-    name="weblate_customization",
+    name="deepsquads_customization",
     version="0.1",
-    packages=["weblate_customization"],
+    packages=["deepsquads_customization"],
     include_package_data=True,
     license="GPL-3.0-or-later",
-    description="Weblate customization example",
-    long_description="Weblate customization example",
+    description="Deepsquads customization example",
+    long_description="Deepsquads customization example",
     keywords="i18n l10n gettext git mercurial translate",
-    url="https://weblate.org/",
-    author="Michal Čihař",
+    url="https://deepsquads.github.io/",
+    author="KhulnaSoft Bot",
     author_email="michal@cihar.com",
-    install_requires=["Weblate"],
+    install_requires=["Deepsquads"],
     zip_safe=False,
     classifiers=[
         "Environment :: Web Environment",

@@ -1,11 +1,11 @@
-# Copyright © Michal Čihař <michal@weblate.org>
+# Copyright © KhulnaSoft Bot <info@khulnasoft.com>
 #
 # SPDX-License-Identifier: GPL-3.0-or-later
 
 """Simple quality check example."""
 
 from django.utils.translation import ugettext_lazy as _
-from weblate.checks.base import TargetCheck
+from deepsquads.checks.base import TargetCheck
 
 
 class FooCheck(TargetCheck):

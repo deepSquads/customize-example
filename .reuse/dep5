@@ -1,16 +1,16 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: Weblate customization example
-Upstream-Contact: Michal Čihař <michal@weblate.org>
-Source: https://weblate.org/
+Upstream-Name: Deepsquads customization example
+Upstream-Contact: KhulnaSoft Bot <info@khulnasoft.com>
+Source: https://deepsquads.github.io/
 
 Files: README.rst
-Copyright: Michal Čihař <michal@weblate.org>
+Copyright: KhulnaSoft Bot <info@khulnasoft.com>
 License: GPL-3.0-or-later
 
-Files: weblate_customization/static/*
-Copyright: Michal Čihař <michal@weblate.org>
+Files: deepsquads_customization/static/*
+Copyright: KhulnaSoft Bot <info@khulnasoft.com>
 License: GPL-3.0-or-later
 
 Files: .gitignore .pre-commit-config.yaml MANIFEST.in requirements*.txt setup.cfg pyproject.toml
-Copyright: Michal Čihař <michal@weblate.org>
+Copyright: KhulnaSoft Bot <info@khulnasoft.com>
 License: GPL-3.0-or-later
